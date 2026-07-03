@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - ShopSphere</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+
+<body>
+
+<div class="checkout-container">
+
+    <h1>Checkout</h1>
+
+    <div class="checkout-grid">
+
+        <!-- LEFT: CART ITEMS -->
+        <div class="cart-summary" id="cartSummary">
+
+            <h2>Your Items</h2>
+
+        </div>
+
+        <!-- RIGHT: FORM -->
+        <div class="checkout-form">
+
+            <h2>Shipping Details</h2>
+
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="Phone Number">
+            <input type="text" placeholder="Pincode">
+
+            <button onclick="placeOrder()">Place Order</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/checkout.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    background:#f5f7fb;
+}
+
+.success-container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.success-card{
+    background:#fff;
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    max-width:400px;
+}
+
+.checkmark{
+    width:80px;
+    height:80px;
+    background:#22c55e;
+    color:#fff;
+    font-size:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 20px;
+}
+
+.success-card h1{
+    margin-bottom:10px;
+}
+
+.success-card p{
+    color:#666;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 20px;
+    background:#2563eb;
+    color:#fff;
+    border-radius:8px;
+    text-decoration:none;
+}
